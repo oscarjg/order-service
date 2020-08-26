@@ -33,4 +33,6 @@ curl -X POST http://localhost:8099/orders/confirm/{ORDER_ID} -H "Content-Type:ap
 ```
 
 ## RUNNING TEST
+```
 docker-compose exec php bin/phpunit
+```
